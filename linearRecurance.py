@@ -1,9 +1,9 @@
-def recurrentSequence(k, sequence, fn):
+def recurrentSequence(fn, k, sequence):
     """ A generator for linear recurrence equations
 
-    k: how many terms fn uses to calculate a_n
-    sequence: a list [a_1, ...] of length k
     fn: a function to calculat a_n from sequence
+    k: how many terms fn uses to calculate a_n
+    sequence: The first k elements of the sequence
     """
 
     # n indexes the sequence
